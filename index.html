@@ -11,11 +11,36 @@
 <body>
     <!-- Navigation Bar -->
     <nav class="navbar">
-        <ul class="navlist container">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+        <div class="navContainer container">
+            <div class="navLogo">
+                <!-- <img
+                    class="logo"
+                    src="/assets/logo.png"
+                    alt="Logo for navbar"
+                /> -->
+            </div>
+            <div class="navList">
+                <ul class="navItems">
+                    <li>
+                        <a href="#title">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects">
+                            Projects
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
     </nav>
 
     <!-- Title -->
@@ -24,7 +49,7 @@
     </div>
 
     <!-- About Section -->
-    <div class="container">
+    <div id="about" class="container">
         <h2>About</h2>
         <p>
             This is a simple portfolio website. It is a skeleton
@@ -34,7 +59,7 @@
     </div>
 
     <!-- Project Section -->
-    <div class="container">
+    <div id="projects" class="container">
         <h2>Projects</h2>
         <p>
             This is a simple portfolio website. It is a skeleton
