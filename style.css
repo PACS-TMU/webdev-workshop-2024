@@ -1,13 +1,13 @@
 body {
-    background-color: #f0f0f0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
-    padding: 0;
+  background-color: #f0f0f0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    max-width: 1440px;
-    padding: 0 20px;
+  max-width: 1440px;
+  padding: 0 20px;
 }
 
 .navbar {
@@ -32,30 +32,73 @@ body {
 }
 
 .navItems {
-    list-style-type: none;
-    margin: 0.5rem;
-    padding: 0;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row;
+  list-style-type: none;
+  margin: 0.5rem;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
 }
 
 #logo {
-    width: auto;
-    height: 100%;
-    padding: 0 1rem;
+  width: auto;
+  height: 100%;
+  padding: 0 1rem;
 }
 
 .navItems li {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .title {
-    background-color: #333;
-    color: #fff;
-    margin: 10px 0;
-    padding: 10px;
-    text-align: center;
+  background-color: #333;
+  color: #fff;
+  margin: 10px 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.projectCard {
+  display: flex;
+  padding: 20px;
+  margin-bottom: 20px;
+  /* align-items: center; */
+  justify-self: center;
+  background-color: white;
+  gap: 50px;
+  border-radius: 25px;
+}
+.projectImage {
+  width: 350px;
+  height: 250px;
+  /* background-color: #6ab3c9; */
+  object-fit: cover;
+  border-radius: 10px;
+}
+.projectTitle {
+  color: #1c4966;
+  /* border: solid; */
+}
+.projectInfo {
+  width: 70%;
+}
+.projectDesc {
+  /* border: solid;
+    border-color: #333; */
+}
+.projectButton {
+  background-color: #1c4966;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+a {
+  color: white;
 }
