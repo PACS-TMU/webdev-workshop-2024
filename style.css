@@ -15,26 +15,18 @@ body {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    max-height: 4rem;
 }
 
 .navbar a {
     color: #fff;
     text-decoration: none;
     padding: 10px;
-}
-
-.navContainer {
-    display: flex;
-    flex-direction: row;
-}
-
-.navLogo {
-    width: 50%;
-}
-
-.navList {
-    width: 50%;
-    margin-left: auto;
 }
 
 .navItems {
@@ -45,6 +37,12 @@ body {
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
+}
+
+#logo {
+    width: auto;
+    height: 100%;
+    padding: 0 1rem;
 }
 
 .navItems li {
