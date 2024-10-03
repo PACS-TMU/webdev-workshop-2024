@@ -19,14 +19,16 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 4rem;
-    max-height: 4rem;
+    height: 3.5rem;
+    max-height: 3.5rem;
+    font-size: larger;
+    font-weight: 500;
 }
 
 .navbar a {
     color: #fff;
     text-decoration: none;
-    padding: 10px;
+    padding: 0.5rem;
 }
 
 .navItems {
