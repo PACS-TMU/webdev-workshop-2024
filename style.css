@@ -1,7 +1,7 @@
 /* General CSS */
 body {
-  background-color: #F0F0F0;
-  background-image: url('/assets/background.jpg');
+  background-color: #f0f0f0;
+  background-image: url("/assets/background.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -18,35 +18,35 @@ body {
 
 /* Navbar CSS */
 .navbar {
-    background-color: #F0F0F0;
-    z-index: 20;
-    padding: 10px 0;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 3rem;
-    max-height: 3rem;
-    font-size: larger;
-    font-weight: 600;
+  background-color: #f0f0f0;
+  z-index: 20;
+  padding: 10px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  max-height: 3rem;
+  font-size: larger;
+  font-weight: 600;
 }
 
 .navbar a {
-    color: #1C4966;
-    text-decoration: none;
-    padding: 0.5rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+  color: #1c4966;
+  text-decoration: none;
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .navbar a:hover {
-    color: #1E1E1E;
-    transition: ease-in-out 300ms;
+  color: #1e1e1e;
+  transition: ease-in-out 300ms;
 }
 
 .navbarBg {
-    background-color: #F0F0F0;
+  background-color: #f0f0f0;
 }
 
 .navItems {
@@ -67,10 +67,10 @@ body {
 
 /* Hero Section CSS */
 .yourName {
-    color: #1E1E1E;
-    font-size: 40pt;
-    margin: 4rem 0;
-    text-align: center;
+  color: #1e1e1e;
+  font-size: 40pt;
+  margin: 4rem 0;
+  text-align: center;
 }
 
 /* Project Section CSS */
@@ -93,8 +93,8 @@ body {
   border-radius: 10px;
 }
 
-.projectTitle {
-  color: #1C4966;
+h3 {
+  color: #1c4966;
   /* border: solid; */
 }
 
