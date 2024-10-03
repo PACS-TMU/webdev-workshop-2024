@@ -1,4 +1,8 @@
 /* General CSS */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #f0f0f0;
   background-image: url("/assets/background.jpg");
@@ -11,9 +15,21 @@ body {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1200px;
   padding: 0 20px;
   margin: 0 auto;
+}
+
+h1, h2 {
+  color: #1e1e1e;
+}
+
+.sectionTitle {
+  margin-left: 1rem;
+}
+
+.sectionText {
+  margin-left: 1.5rem;
 }
 
 /* Navbar CSS */
@@ -33,7 +49,7 @@ body {
 }
 
 .navbar a {
-  color: #1c4966;
+  color: #1e1e1e;
   text-decoration: none;
   padding: 0.5rem;
   margin-left: 0.5rem;
@@ -41,7 +57,7 @@ body {
 }
 
 .navbar a:hover {
-  color: #1e1e1e;
+  color: #1c4966;
   transition: ease-in-out 300ms;
 }
 
@@ -66,11 +82,39 @@ body {
 }
 
 /* Hero Section CSS */
+.hero {
+  height: 70vh;
+  max-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .yourName {
-  color: #1e1e1e;
   font-size: 40pt;
-  margin: 4rem 0;
+  margin: 4rem 0 0 0;
   text-align: center;
+}
+
+.subtitle {
+  font-size: 15pt;
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+.icons {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons img {
+  margin: 0 1rem;
+  width: 46px;
+  height: 46px;
 }
 
 /* Project Section CSS */
@@ -80,7 +124,7 @@ body {
   margin-bottom: 20px;
   /* align-items: center; */
   justify-self: center;
-  background-color: white;
+  background-color: #f0f0f0;
   gap: 50px;
   border-radius: 25px;
 }
@@ -111,7 +155,7 @@ h3 {
   background-color: #1c4966;
   border-radius: 15px;
   border: none;
-  color: white;
+  color: #f0f0f0;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
