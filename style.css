@@ -131,12 +131,12 @@ h1, h2 {
 
 #aboutGrid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: 55% 35%;
+  gap: 10%;
   padding-bottom: 40px;
 }
 
 #aboutText {
-  padding-right: 20px;
   margin-top: auto;
   margin-bottom: auto;
   font-size: x-large;
@@ -144,8 +144,9 @@ h1, h2 {
 }
 
 #aboutHeadshot {
-  width: 80%;
+  width: 100%;
   margin-left: auto;
+  border-radius: 10px;
 }
 
 /****************/
