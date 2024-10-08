@@ -125,6 +125,34 @@ h1, h2 {
   transition: ease-in-out 300ms;
 }
 
+/*****************/
+/* ABOUT SECTION */
+/*****************/
+
+#aboutGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding-bottom: 40px;
+}
+
+#aboutText {
+  padding-right: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: x-large;
+  font-family: monospace;
+}
+
+#aboutHeadshot {
+  width: 80%;
+  margin-left: auto;
+}
+
+/****************/
+/* END OF ABOUT */
+/****************/
+
+
 /* Project Section CSS */
 .projectCard {
   display: flex;
